@@ -14,13 +14,14 @@ public class Actividad4_2 {
      */
     public static void main(String[] args) {
     Scanner sc= new Scanner(System.in);
-    int A,P;
+    int A;
         System.out.print("Digite un numero: ");
     A=sc.nextInt();
-    P=A/2;
-        if (A%1) {
-            System.out.println("Es impar");
-        }
+        if (A%2 == 0) {
+            System.out.println("Es par");
+        } else {
+                   System.out.println("Es impar");
+                    }
     }
     
 }
