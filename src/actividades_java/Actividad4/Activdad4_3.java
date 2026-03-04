@@ -22,7 +22,7 @@ public class Activdad4_3 {
         System.out.println("Digite el divisor");
         B=sc.nextInt();
         if (B==0){
-            System.out.println("No se puede dividir por 0 bruto hpta");
+            System.out.println("No se puede dividir por 0");
         } else {
         R=A/B;
             System.out.println("El resultado de la division es "+R);
