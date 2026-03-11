@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -7,23 +8,17 @@ package actividades_java.Actividades5;
 
 /**
  *
- * @author APRENDIZ
+ * @author andre
  */
-public class Punto9 {
+public class Punto10 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int b=1,s;
- 
-        for (int a=0; a<=600;){
-            System.out.print(a+", ");
-            s=a+b;
-            a=b;
-            b=s;
-            
+            for (int j = 1; j <= 20; j++) {
+                System.out.println((3*j)+" soy multiplo de 3");
+            }
         }
     }
-    
-}
+

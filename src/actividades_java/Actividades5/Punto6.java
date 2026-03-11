@@ -23,6 +23,7 @@ public class Punto6 {
         i=sc.nextInt();
         System.out.println("Digite el numero final");
         j=sc.nextInt();
+        System.out.println("Inicia en "+i+" Terminara en "+j);
         for (int o=i;o<=j;o++){
             System.out.println(o);
         }

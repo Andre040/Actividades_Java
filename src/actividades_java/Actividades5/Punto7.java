@@ -35,7 +35,7 @@ public class Punto7 {
             if (r>=3){
                 System.out.println("El promedio es: "+r+" Aprobado");
             }else{
-                System.out.println("Reprobado");
+                System.out.println("El promedio es: "+r+" Reprobado");
             }
             System.out.println("--------------------------");
         }
